@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>
+        Blog with photos .
+    </title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(to left, mediumslateblue, violet);
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+        }
+        label{
+      border-width: medium;
+            border-style: double;
+            border-color: chartreuse;
+         
+        }
+    </style>
+    <script>
+        function setdate() {
+            document.getElementById("datelabel").innerHTML = new Date().toDateString();
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Blog with photos ...... </h1>
+    <div><label id="datelabel"></label>
+        <button onclick="setdate()"> show date .....</button>
+    </div>
+    <br><br>
+    <div>
+        <img src="https://www.gardeningknowhow.com/wp-content/uploads/2017/07/hardwood-tree.jpg">
+        <label>Spring is nature’s way of saying, ‘Let’s party!’ —Robin Williams .</label>
+    </div>
+    <br>
+    <div>
+        <img src="https://www.candgnews.com/storage/articles/99910/park-SI.jpg">
+        <label>To forget how to dig the earth and to tend the soil is to forget ourselves. —Mahatma Gandhi .</label>
+    </div>
+    <br>
+    <div>
+        <img src="https://arbordayblog.org/wp-content/uploads/2017/09/japanese-maple-shade-tree-iStock-180454493.jpg">
+        <label> Colors are the smiles of nature. —Leigh Hunt .</label>
+    </div>
+    <br>
+    <div>
+        <img src="https://arbordayblog.org/wp-content/uploads/2018/06/oak-tree-sunset-iStock-477164218.jpg">
+        <label> Study nature, love nature, stay close to nature. It will never fail you. —Frank Lloyd Wright .</label>
+    </div>
+
+
+
+</body></html>
